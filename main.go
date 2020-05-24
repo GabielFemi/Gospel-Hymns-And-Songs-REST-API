@@ -26,7 +26,7 @@ func main() {
 
 func Index(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
-	w.WriteHeader(200)
+	w.WriteHeader(http.StatusOK)
 	_ = json.NewEncoder(w).Encode("This is the GHS")
 
 }
@@ -35,6 +35,6 @@ func GetAGhs(w http.ResponseWriter, r *http.Request) {
 	vars := mux.Vars(r)
 
 	w.Header().Set("Content-Type", "application/json")
-	w.WriteHeader(200)
+	w.WriteHeader(http.StatusOK)
 	_ = json.NewEncoder(w).Encode(vars["id"])
 }
