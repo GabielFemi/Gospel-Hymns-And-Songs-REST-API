@@ -15,10 +15,10 @@ func main() {
 
 	srv := &http.Server{
 		Handler: router,
-		Addr: "127.0.0.1:7000",
+		Addr:    "127.0.0.1:7000",
 
 		WriteTimeout: 15 * time.Second,
-		ReadTimeout: 15 * time.Second,
+		ReadTimeout:  15 * time.Second,
 	}
 	log.Println("Listening on", srv.Addr)
 	log.Fatalln(srv.ListenAndServe())
