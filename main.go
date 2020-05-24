@@ -5,13 +5,23 @@ import (
 	"github.com/gorilla/mux"
 	"log"
 	"net/http"
+	"time"
 )
 
 func main() {
 	router := mux.NewRouter()
 	router.HandleFunc("/api/ghs", Index)
-	log.Println("Listening on 127.0.0.1:7000")
-	_ = http.ListenAndServe(":7000", router)
+	router.HandleFunc("/api/ghs/{id}", GetAGhs)
+
+	srv := &http.Server{
+		Handler: router,
+		Addr: "127.0.0.1:7000",
+
+		WriteTimeout: 15 * time.Second,
+		ReadTimeout: 15 * time.Second,
+	}
+	log.Println("Listening on", srv.Addr)
+	log.Fatalln(srv.ListenAndServe())
 }
 
 func Index(w http.ResponseWriter, r *http.Request) {
@@ -19,4 +29,12 @@ func Index(w http.ResponseWriter, r *http.Request) {
 	w.WriteHeader(200)
 	_ = json.NewEncoder(w).Encode("This is the GHS")
 
+}
+
+func GetAGhs(w http.ResponseWriter, r *http.Request) {
+	vars := mux.Vars(r)
+
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(200)
+	_ = json.NewEncoder(w).Encode(vars["id"])
 }
