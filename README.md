@@ -2,6 +2,9 @@
 This Repository contains the Gospel Hymns and Songs Application Programming Interface for the Deeper Life Bible Church.
 
 It was made as an attempt to solve the problem of developers who want to build a product arouund the GHS having to go through it manually.
+ #Endpoints
+ ``/api/ghs`` -  Gets all the current GHS with their respective title and number of stanzas
+ 
  #Open Source?
  This API is entirely an Open Source software.
  
