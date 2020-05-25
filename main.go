@@ -36,8 +36,8 @@ func Index(w http.ResponseWriter, r *http.Request) {
 func GetAGhs(w http.ResponseWriter, r *http.Request) {
 	vars := mux.Vars(r)
 	id := vars["id"]
-	ghs_api.GetASingleGhs(id)
+	singleGhs := ghs_api.GetASingleGhs(id)
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(http.StatusOK)
-	_ = json.NewEncoder(w).Encode(vars["id"])
+	_ = json.NewEncoder(w).Encode(singleGhs)
 }
