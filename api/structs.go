@@ -4,12 +4,12 @@ type GHS struct {
 	Id       int
 	Title    string
 	Chorus   string
-	Stanza_1 string
-	Stanza_2 string
-	Stanza_3 string
-	Stanza_4 string
-	Stanza_5 string
-	Stanza_6 string
-	Stanza_7 string
-	Stanza_8 string
+	Stanza1 string
+	Stanza2  string
+	Stanza3 string
+	Stanza4 string
+	Stanza5 string
+	Stanza6 string
+	Stanza7 string
+	Stanza8 string
 }
