@@ -11,6 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56f74bd1-b6b7-405e-9efa-05fba5943790" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/dbUtils.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/dbUtils.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +21,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="2635" />
+    <option name="totalTimeSeconds" value="3738" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -31,6 +33,11 @@
   <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
   </component>
   <component name="ProjectId" id="1cPJ6tz6VPiTOFfqkXTofKf9jX3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -70,10 +77,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590425644697">
+    <state x="274" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590428502227">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1590425644697" />
+    <state x="274" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1590428502227" />
     <state x="488" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1590426051718">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
