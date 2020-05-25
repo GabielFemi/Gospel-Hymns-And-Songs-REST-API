@@ -10,16 +10,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56f74bd1-b6b7-405e-9efa-05fba5943790" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/api/dbUtils.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/dbUtils.go" afterDir="false" />
-    </list>
+    <list default="true" id="56f74bd1-b6b7-405e-9efa-05fba5943790" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="2031" />
+    <option name="totalTimeSeconds" value="2334" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">

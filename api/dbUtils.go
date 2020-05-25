@@ -19,7 +19,7 @@ func databaseConn() *sql.DB {
 	return db
 }
 
-func GetAllGhsFromDb() {
+func GetAllGhsFromDb() []GHS {
 	db := databaseConn()
 	fetchAllGhsFromDB, err := db.Query("SELECT * FROM songs")
 	if err != nil {
@@ -28,6 +28,7 @@ func GetAllGhsFromDb() {
 	var id int
 	var title, chorus, stanza1, stanza2, stanza3, stanza4, stanza5, stanza6, stanza7, stanza8 string
 	var ghs GHS
+	var ghsSlice []GHS
 	for fetchAllGhsFromDB.Next() {
 		err := fetchAllGhsFromDB.Scan(&id, &title, &chorus, &stanza1, &stanza2, &stanza3, &stanza4, &stanza5, &stanza6, &stanza7, &stanza8)
 		if err != nil {
@@ -43,6 +44,9 @@ func GetAllGhsFromDb() {
 		ghs.Stanza5 = stanza5
 		ghs.Stanza6 = stanza6
 		ghs.Stanza8 = stanza8
+
+		ghsSlice = append(ghsSlice, ghs)
 	}
+	return ghsSlice
 
 }
