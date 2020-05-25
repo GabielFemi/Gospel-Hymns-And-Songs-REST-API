@@ -8,7 +8,7 @@ import (
 func databaseConn() *sql.DB {
 	databaseDriver := "mysql"
 	databaseUsername := "root"
-	databaseName := "localhost"
+	databaseName := "ghs"
 	databasePassword := ""
 
 	db, err := sql.Open(databaseDriver, databaseUsername+":"+databasePassword+"@/"+databaseName)

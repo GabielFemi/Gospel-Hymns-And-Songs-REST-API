@@ -10,14 +10,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56f74bd1-b6b7-405e-9efa-05fba5943790" name="Default Changelist" comment="" />
+    <list default="true" id="56f74bd1-b6b7-405e-9efa-05fba5943790" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="2334" />
+    <option name="totalTimeSeconds" value="2635" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -76,5 +78,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="488" y="100" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1590426051718" />
+    <state x="549" y="249" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1590427062868">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="549" y="249" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/0.0.1366.768@0.0.1366.768" timestamp="1590427062868" />
   </component>
 </project>

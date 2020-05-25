@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	ghs_api "github.com/gabielfemi/ghs-api/api"
 	"github.com/gorilla/mux"
 	"log"
 	"net/http"
@@ -27,7 +28,8 @@ func main() {
 func Index(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(http.StatusOK)
-	_ = json.NewEncoder(w).Encode("This is the GHS")
+	allGhs := ghs_api.GetAllGhsFromDb()
+	_ = json.NewEncoder(w).Encode(allGhs)
 
 }
 
