@@ -45,5 +45,4 @@ func GetAllGhsFromDb() {
 		ghs.Stanza8 = stanza8
 	}
 
-
 }
