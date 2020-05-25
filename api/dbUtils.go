@@ -26,6 +26,6 @@ func GetAllGhsFromDb() {
 		panic(err)
 	}
 	var id int
-	var title, chorus, stanza_1, stanza_2, stanza_3, stanza_4, stanza_5, stanza_6, stanza_7, stanza_8 string
-	fetchAllGhsFromDB.Scan(&id, &title, &chorus, &stanza_1, &stanza_2, &stanza_3, &stanza_4, &stanza_5, &stanza_6, &stanza_7, &stanza_8)
+	var title, chorus, stanza1, stanza2, stanza3, stanza4, stanza5, stanza6, stanza7, stanza8 string
+	fetchAllGhsFromDB.Scan(&id, &title, &chorus, &stanza1, &stanza2, &stanza3, &stanza4, &stanza5, &stanza6, &stanza7, &stanza8)
 }
